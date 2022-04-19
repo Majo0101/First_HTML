@@ -1,0 +1,37 @@
+#con1 {
+    width: auto;
+    height: 600px;
+    margin: 40px;
+    color: white;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+
+#con2 {
+    width: auto;
+    height: 600px;
+    margin: 20px;
+    border-radius: 25px;
+    opacity: initial;
+}
+
+#left {
+    float: left;
+    width: 40px;
+    height: 600px;
+    color: #222222;
+    margin-top: 25%;
+}
+
+#right {
+    float: right;
+    width: 40px;
+    height: 600px;
+    color: #222222;
+    margin-top: 25%;
+    margin-right: 4%;
+}
+
+#demo {
+    color: #222222;
+}
