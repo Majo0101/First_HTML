@@ -23,7 +23,6 @@
     <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
         <div class="container-fluid">
@@ -46,18 +45,46 @@
     <!-- ......................................................................................... -->
 
     <!-- Gallery -->
-    <div class="container-fluid bg-dark" id="con1">
-        <div class="container-fluid bg-light" id="con2">
-            <img id="photo" src="gallery/1.jpg" height="300px" width="300px">
-            <div class="container" id="left">
-                <button type="button" class="btn btn-light" value="0" onclick="left(0)" ><img src="img/arrow-left-circle.svg" width="30" height="30"></button>
-            </div>
-            <div class="container" id="right">
-                <button type="button" class="btn btn-light" value="1" onclick="left(1)" ><img src="img/arrow-right-circle.svg" width="30" height="30"></button>
-            </div>
-        </div>
-    </div>
+     <div class="container-fluid bg-dark" id="con1">
+         <div class="container-fluid bg-light" id="con2">
+             <img id="photo" src="gallery/1.jpg">
+             <div class="container" id="left">
+                 <button type="button" class="btn btn-light" value="0" onclick="left(0)" ><img src="img/arrow-left-circle.svg" width="30" height="30"></button>
+             </div>
+             <div class="container" id="right">
+                 <button type="button" class="btn btn-light" value="1" onclick="left(1)" ><img src="img/arrow-right-circle.svg" width="30" height="30"></button>
+             </div>
+         </div>
+     </div>
+
     <!-- ......................................................................................... -->
+
+    <!--footer-->
+    <footer class="text-center text-lg-start bg-dark text-muted" id="foot">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+            <div class="me-5 d-none d-lg-block">
+                <span>© 2022 Copyright: Marian Bodnar</span>
+            </div>
+            <div>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Pondelok" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <!-- .............................................................................................. -->
 
     <script src="js/photos.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
