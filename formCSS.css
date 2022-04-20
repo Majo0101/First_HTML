@@ -1,38 +1,47 @@
-#formArea {
+#mainContainer {
     width: auto;
-    height: 80vh;
-    margin: 40px;
-    border-radius: 25px;
+    height: auto;
+    text-align: center;
     opacity: 0.8;
-}
-
-#name {
+    border-radius: 25px;
+    margin: 35px;
     color: white;
 }
 
-#space1 {
-    height: 7vh;
+#firstRow {
+    width: auto;
+    height: 5vh;
 }
 
-#space2 {
-    height: 7vh;
-}
 
-#row2 {
-    color: white;
-    margin-left: 2vh;
-}
 
-#row3 {
-    color: white;
-    margin-left: 2vh;
-}
 
-#choiceCol {
-    text-align: center;
-}
 
-#submitCol {
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

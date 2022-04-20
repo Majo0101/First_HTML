@@ -45,96 +45,138 @@
     <!-- ......................................................................................... -->
 
     <!--Form-->
-    <div class="container-fluid bg-dark" id="formArea">
-        <div class="container" id="name">
-            <div class="row" id="row1">
-                <div class="col">
-                    <form id="fname">
-                        <label for="fname">First name:</label><br>
-                        <input type="text" name="fname"><br>
-                    </form>
-                </div>
-                    <div class="col">
-                        <form id="lname">
-                            <label for="lname">Last name:</label><br>
-                            <input type="text" name="lname">
-                        </form>
-                    </div>
-                        <div class="col">
-                            <form id="Cname">
-                                <label for="cname">Company name:</label><br>
-                                <input type="text" name="cname">
+    <div class="container-fluid  bg-dark" id="mainContainer">
+        <div class="row" id="firstRow"></div>
+            <div class="row" id="secondRow">
+                <p>1. Enter your first and second name</p><br><br>
+                    <div class="col"></div>
+                        <div class="col" id="firstname">
+                            <form id="fname">
+                                <label for="fname">First name:</label><br>
+                                <input type="text" name="fname"><br>
                             </form>
                         </div>
-            </div>
-            <div class="row" id="space1"></div>
-                <div class="col"></div>
-            </div>
-            <div class="row" id="row2">
-                <div class="col">
-                    <p>Enter your district:</p>
-                    <form>
-                        <input type="radio" id="one" name="place" value="BA">
-                        <label for="one">Bratislava</label><br>
-                        <input type="radio" id="two" name="place" value="BAA">
-                        <label for="two">BA area</label><br>
-                        <input type="radio" id="three" name="place" value="other">
-                        <label for="three">Other</label><br>
-                    </form>
-                </div>
-                    <div class="col">
-                        <p>Problem:</p>
-                        <form>
-                            <input type="checkbox" id="problem1" name="vehicle1" value="Bike">
-                            <label for="problem1"> 1</label><br>
-                            <input type="checkbox" id="problem2" name="vehicle2" value="Car">
-                            <label for="problem2"> 2</label><br>
-                            <input type="checkbox" id="problem3" name="vehicle3" value="Boat">
-                            <label for="problem3"> 3</label>
-                        </form>
-                    </div>
-                        <div class="col">
-                            <form>
-                                <label for="number" id="number">Number:</label><br>
-                                <input type="text" name="number" size="30">
-                                <label for="email" id="email">Email:</label><br>
-                                <input type="text" name="email" size="30">
-                            </form>
-                        </div>
-                            <div class="col" id="choiceCol">
-                                <form>
-                                    <label for="choice">Type:  </label>
-                                    <select id="choice" name="choice">
-                                        <option value="australia">Type 1</option>
-                                        <option value="canada">Type 2</option>
-                                        <option value="usa">Type 3</option>
-                                    </select>
+                            <div class="col" id="secondName">
+                                <form id="lname">
+                                    <label for="lname">Second name:</label><br>
+                                    <input type="text" name="lname"><br><br><br>
                                 </form>
                             </div>
                                 <div class="col"></div>
             </div>
-            <div class="row" id="space2"></div>
-            <div class="row" id="row3">
-                <div class="col">
-                    <form>
-                        <label for="description" id="description">Description:</label><br>
-                        <textarea id="subject" name="description" placeholder="Write something.." style="width: 100vh; height: 20vh"></textarea>
-                    </form>
-                </div>
-                    <div class="col" id="colFile">
-                        <label for="myfile">Select a file:</label><br>
-                        <input type="file" id="myfile" name="myfile">
+                <div class="row" id="thirdRow">
+                        <p>2. Name of the company and contact </p><br><br>
+                            <div class="col"></div>
+                                <div class="col" id="company">
+                                    <label for="cname" id="cname">Company name:</label><br>
+                                    <input type="text" name="cname">
+                                </div>
+                                    <div class="col">
+                                        <label for="number" id="number">Phone number:</label><br>
+                                        <input type="text" name="number">
+                                    </div>
+                                        <div class="col">
+                                            <label for="email" id="email">Email:</label><br>
+                                            <input type="text" name="email"><br><br><br>
+                                        </div>
+                                            <div class="col"></div>
                     </div>
-            </div>
-            <div class="row" id="row4">
-                <div class="col"></div>
-                    <div class="col" id="submitCol">
-                        <input class="btn btn-primary btn-block" type="submit" value="Submit">
-                    </div>
-                        <div class="col"></div>
-            </div>
+                        <div class="row" id="fourthRow">
+                            <p>3. Enter your district</p><br><br>
+                                <div class="col"></div>
+                                    <div class="col" id="radioCol1">
+                                        <input type="radio" id="one" name="place" value="BA">
+                                        <label for="one">Bratislava</label>
+                                    </div>
+                                        <div class="col" id="radioCol2">
+                                            <input type="radio" id="two" name="place" value="BAA">
+                                            <label for="two">Bratislava district</label>
+                                        </div>
+                                            <div class="col" id="radioCol3">
+                                                <input type="radio" id="three" name="place" value="other">
+                                                <label for="three">Other</label><br><br><br>
+                                            </div>
+                                                <div class="col"></div>
+                        </div>
+                            <div class="row" id="fifthRow">
+                                <p>4. Enter your choice</p><br><br>
+                                <div class="col"></div>
+                                    <div class="col">
+                                        <input type="checkbox" id="problem1" name="vehicle1" value="Bike">
+                                        <label for="problem1"> 1</label><br>
+                                    </div>
+                                        <div class="col">
+                                            <input type="checkbox" id="problem2" name="vehicle2" value="Car">
+                                            <label for="problem2"> 2</label><br>
+                                        </div>
+                                            <div class="col">
+                                                <input type="checkbox" id="problem3" name="vehicle3" value="Boat">
+                                                <label for="problem3"> 3</label><br><br><br>
+                                            </div>
+                                                <div class="col"></div>
+                            </div>
+                                <div class="row" id="sixthRow">
+                                    <p>5. Enter your address</p>
+                                        <div class="col"></div>
+                                            <div class="col">
+                                                <label for="strname" id="strname">Street:</label><br>
+                                                <input type="text" name="strname">
+                                            </div>
+                                                <div class="col">
+                                                    <label for="strnumber" id="strnumber">Street number:</label><br>
+                                                    <input type="text" name="strnumber">
+                                                </div>
+                                                    <div class="col">
+                                                        <label for="flatnum" id="flatnum">Flat number:</label><br>
+                                                        <input type="text" name="flatnum"><br><br><br>
+                                                    </div>
+                                                        <div class="col"></div>
+                                </div>
+                                    <div class="row" id="seventhRow">
+                                        <p>6. Enter your Choice</p><br><br>
+                                            <div class="col"></div>
+                                                <div class="col">
+                                                    <form id="clickSelect">
+                                                        <label for="choice">Type:  </label>
+                                                        <select id="choice" name="choice" style="width: 100%">
+                                                            <option value="australia">Type        1</option>
+                                                            <option value="canada">Type        2</option>
+                                                            <option value="usa">Type        3</option>
+                                                        </select>
+                                                    </form><br><br><br>
+                                                </div>
+                                                    <div class="col"></div>
+                                    </div>
+                                        <div class="row" id="eightRow">
+                                            <p>7. Description</p>
+                                            <div class="col">
+                                                <form id="descriptionWrite">
+                                                    <label for="description" id="description">Description:</label><br>
+                                                    <textarea id="subject" name="description" placeholder="Write something.." style="width: 80%; height: 20vh"></textarea>
+                                                </form><br><br><br>
+                                            </div>
+                                        </div>
+                                            <div class="row" id="ninthRow">
+                                                <p>8. Upload your photo</p>
+                                                    <div class="col"></div>
+                                                        <div>
+                                                            <label for="myfile">Select a file:</label><br>
+                                                            <input type="file" id="myfile" name="myfile"><br><br><br>
+                                                        </div>
+                                                            <div class="row"></div>
+                                            </div>
+                                                <div class="row" id="tenthRow">
+                                                    <div class="col"></div>
+                                                        <div class="col">
+                                                            <p>9. Submit</p><br><br>
+                                                            <input type="checkbox" id="gdpr" name="gdpr" value="Car">
+                                                            <label for="gdpr"> GDPR accepted</label><br><br>
+                                                            <input class="btn btn-primary btn-block" type="submit" value="Submit"><br><br>
+                                                        </div>
+                                                            <div class="col"></div>
+                                                </div>
     </div>
-    <!-- ........................................................................................................... -->
+ <!-- ........................................................................................................... -->
 
     <!--footer-->
     <footer class="text-center text-lg-start bg-dark text-muted" id="foot">

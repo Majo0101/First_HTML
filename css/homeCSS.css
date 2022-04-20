@@ -3,6 +3,7 @@ body {
     background-image: url(/img/back3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     /*background-position: center center;*/
 
 }
@@ -29,13 +30,14 @@ body {
 
 #center {
     /* Center of page */
-    height: 600px;
+    height: 10vh;
     width: auto;
     margin: 25px;
 }
 
 #foot{
     /* footer */
+    float: bottom;
     border-radius: 20px;
     margin: 25px;
     opacity: 0.8;
@@ -44,7 +46,7 @@ body {
 #title {
     /*title*/
     width: auto;
-    height: 300px;
+    height: 40vh;
     display: flex;
     align-items: center;
     color: white;
@@ -62,4 +64,9 @@ body {
     color: #ffffff;
     font-size: 25px;
     text-align: center;
+}
+
+#top {
+    width: auto;
+    height: 10vh;
 }
