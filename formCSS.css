@@ -1,0 +1,38 @@
+#formArea {
+    width: auto;
+    height: 80vh;
+    margin: 40px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+#name {
+    color: white;
+}
+
+#space1 {
+    height: 7vh;
+}
+
+#space2 {
+    height: 7vh;
+}
+
+#row2 {
+    color: white;
+    margin-left: 2vh;
+}
+
+#row3 {
+    color: white;
+    margin-left: 2vh;
+}
+
+#choiceCol {
+    text-align: center;
+}
+
+#submitCol {
+    text-align: center;
+}
+
