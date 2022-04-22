@@ -1,0 +1,50 @@
+#firstContainer {
+    width: auto;
+    height: auto;
+    margin: 35px;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+
+#blog1 {
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 4%;
+}
+
+#header1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#photo1 {
+    text-align: center;
+
+}
+
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+.obrazok {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/*.circular--portrait {*/
+/*    position: relative;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.circular--portrait img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/

@@ -47,16 +47,12 @@
     <!-- Gallery -->
      <div class="container-fluid bg-dark" id="con1">
          <div class="container-fluid bg-light" id="con2">
+             <input type="image" src="img/arrow-left.svg" onclick="left(0)" width="40vh" size="40vh">
              <img id="photo" src="gallery/1.jpg">
-             <div class="container" id="left">
-                 <button type="button" class="btn btn-light" value="0" onclick="left(0)" ><img src="img/arrow-left-circle.svg" width="30" height="30"></button>
-             </div>
-             <div class="container" id="right">
-                 <button type="button" class="btn btn-light" value="1" onclick="left(1)" ><img src="img/arrow-right-circle.svg" width="30" height="30"></button>
+             <input type="image" src="img/arrow-right.svg" onclick="left(1)" width="40vh" size="40vh">
              </div>
          </div>
      </div>
-
     <!-- ......................................................................................... -->
 
     <!--footer-->
@@ -86,7 +82,7 @@
     </footer>
     <!-- .............................................................................................. -->
 
-    <script src="js/photos.js"></script>
+    <script src="js/galleryJS.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>

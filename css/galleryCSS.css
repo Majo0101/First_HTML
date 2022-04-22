@@ -1,55 +1,27 @@
 #con1 {
     /*black container*/
     width: auto;
-    height: 80vh;
-    margin: 40px;
+    height: auto;
+    margin: 35px;
     color: white;
     border-radius: 25px;
+    text-align: center;
     z-index: 1;
 }
 
 #con2 {
     /*white container*/
-    width: auto;
-    height: 80vh;
-    margin: 20px;
+    width: 90%;
+    height: auto;
     border-radius: 25px;
     z-index: 2;
     text-align: center;
-}
 
-#left {
-    /*left button*/
-    float: left;
-    width: 40px;
-    height: auto;
-    color: #222222;
-
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-#right {
-    /*right button*/
-    float: right;
-    width: 40px;
-    height: auto;
-    color: #222222;
-
-    margin-right: 40px;
-    min-height: 100%;
-    display: flex;
-    align-items: center;
 }
 
 #photo {
     /*photo gallery*/
-    height: 98%;
-    width: auto;
+    height: auto;
+    width: 85%;
     border-radius: 25px;
-    margin-right: -35px;
-    margin-top: 0.5%;
-    background-color: rgba(128,128,128,0);
-
 }

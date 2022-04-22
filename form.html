@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/homeCSS.css">
-    <link rel="stylesheet" href="formCSS.css" >
+    <link rel="stylesheet" href="css/formCSS.css" >
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
@@ -48,24 +48,26 @@
     <div class="container-fluid  bg-dark" id="mainContainer">
         <div class="row" id="firstRow"></div>
             <div class="row" id="secondRow">
-                <p>1. Enter your first and second name</p><br><br>
+                <p><strong>1. Enter your first and second name</strong></p><br><br>
                     <div class="col"></div>
                         <div class="col" id="firstname">
                             <form id="fname">
                                 <label for="fname">First name:</label><br>
                                 <input type="text" name="fname"><br>
+                                <p id="fnameAlert" style="color: red"></p>
                             </form>
                         </div>
                             <div class="col" id="secondName">
                                 <form id="lname">
                                     <label for="lname">Second name:</label><br>
-                                    <input type="text" name="lname"><br><br><br>
+                                    <input type="text" name="lname">
+                                    <p id="lnameAlert" style="color: red"></p><br><br><br>
                                 </form>
                             </div>
                                 <div class="col"></div>
             </div>
                 <div class="row" id="thirdRow">
-                        <p>2. Name of the company and contact </p><br><br>
+                        <p><strong>2. Name of the company and contact</strong></p><br><br>
                             <div class="col"></div>
                                 <div class="col" id="company">
                                     <label for="cname" id="cname">Company name:</label><br>
@@ -73,16 +75,18 @@
                                 </div>
                                     <div class="col">
                                         <label for="number" id="number">Phone number:</label><br>
-                                        <input type="text" name="number">
+                                        <input type="text" name="number" id="numberData">
+                                        <p id="numberAlert" style="color: red"></p>
                                     </div>
                                         <div class="col">
                                             <label for="email" id="email">Email:</label><br>
-                                            <input type="text" name="email"><br><br><br>
+                                            <input type="text" name="email" id="mailData">
+                                            <p id="mailAlert" style="color: red"></p><br><br><br>
                                         </div>
                                             <div class="col"></div>
                     </div>
                         <div class="row" id="fourthRow">
-                            <p>3. Enter your district</p><br><br>
+                            <p><strong>3. Enter your district</strong></p><br><br>
                                 <div class="col"></div>
                                     <div class="col" id="radioCol1">
                                         <input type="radio" id="one" name="place" value="BA">
@@ -91,6 +95,7 @@
                                         <div class="col" id="radioCol2">
                                             <input type="radio" id="two" name="place" value="BAA">
                                             <label for="two">Bratislava district</label>
+                                            <p id="radioAlert" style="color: red"></p>
                                         </div>
                                             <div class="col" id="radioCol3">
                                                 <input type="radio" id="three" name="place" value="other">
@@ -99,7 +104,7 @@
                                                 <div class="col"></div>
                         </div>
                             <div class="row" id="fifthRow">
-                                <p>4. Enter your choice</p><br><br>
+                                <p><strong>4. Enter your choice</strong></p><br><br>
                                 <div class="col"></div>
                                     <div class="col">
                                         <input type="checkbox" id="problem1" name="vehicle1" value="Bike">
@@ -116,7 +121,7 @@
                                                 <div class="col"></div>
                             </div>
                                 <div class="row" id="sixthRow">
-                                    <p>5. Enter your address</p>
+                                    <p><strong>5. Enter your address</strong></p>
                                         <div class="col"></div>
                                             <div class="col">
                                                 <label for="strname" id="strname">Street:</label><br>
@@ -133,7 +138,7 @@
                                                         <div class="col"></div>
                                 </div>
                                     <div class="row" id="seventhRow">
-                                        <p>6. Enter your Choice</p><br><br>
+                                        <p><strong>6. Enter your Choice</strong></p><br><br>
                                             <div class="col"></div>
                                                 <div class="col">
                                                     <form id="clickSelect">
@@ -148,16 +153,17 @@
                                                     <div class="col"></div>
                                     </div>
                                         <div class="row" id="eightRow">
-                                            <p>7. Description</p>
+                                            <p><strong>7. Description</strong></p>
                                             <div class="col">
                                                 <form id="descriptionWrite">
                                                     <label for="description" id="description">Description:</label><br>
                                                     <textarea id="subject" name="description" placeholder="Write something.." style="width: 80%; height: 20vh"></textarea>
+                                                    <p id="descripAlert" style="color: red"></p>
                                                 </form><br><br><br>
                                             </div>
                                         </div>
                                             <div class="row" id="ninthRow">
-                                                <p>8. Upload your photo</p>
+                                                <p><strong>8. Upload your photo</strong></p>
                                                     <div class="col"></div>
                                                         <div>
                                                             <label for="myfile">Select a file:</label><br>
@@ -168,10 +174,11 @@
                                                 <div class="row" id="tenthRow">
                                                     <div class="col"></div>
                                                         <div class="col">
-                                                            <p>9. Submit</p><br><br>
+                                                            <p><strong>9. Submit</strong></p><br>
                                                             <input type="checkbox" id="gdpr" name="gdpr" value="Car">
-                                                            <label for="gdpr"> GDPR accepted</label><br><br>
-                                                            <input class="btn btn-primary btn-block" type="submit" value="Submit"><br><br>
+                                                            <label for="gdpr"> GDPR accepted</label><br>
+                                                            <p id="checkAlert" style="color: red"></p><br>
+                                                            <input class="btn btn-primary btn-block" type="submit" value="Submit" onclick="globalCheck()"><br><br>
                                                         </div>
                                                             <div class="col"></div>
                                                 </div>
@@ -206,7 +213,7 @@
     <!-- .............................................................................................. -->
 
 
-
+<script src="js/formCheck.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
