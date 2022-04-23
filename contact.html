@@ -33,7 +33,7 @@
             <div class="navbar-nav" id="navBarMenu">
                 <a class="nav-link" href="index.html" >Home</a>
                 <a class="nav-link" href="blog.html" >Blog</a>
-                <a class="nav-link" href="gallery.html" >Galery</a>
+                <a class="nav-link" href="gallery.html" >Gallery</a>
                 <a class="nav-link" href="form.html" >Form</a>
                 <a class="nav-link" href="contact.html" id="navBarMenuActive">Contact</a>
                 <form class="d-flex">
@@ -53,34 +53,34 @@
                     <thead>
                     <tr>
                         <th scope="col">Year</th>
-                        <th scope="col">Data1</th>
-                        <th scope="col">Data2</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">Artist</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td id="firstYear">Year</td>
+                        <td id="firstCountry">Country</td>
+                        <td id="firstArtist">Artist artist</td>
                     </tr>
                     <tr>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td id="secondYear">Year</td>
+                        <td id="secondCountry">Country</td>
+                        <td id="secondArtist">Artist artist</td>
                     </tr>
                     <tr>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td id="thirdYear">Year</td>
+                        <td id="thirdCountry">Country</td>
+                        <td id="thirdArtist">Artist artis</td>
                     </tr>
                     </tbody>
                 </table>
                 <div class="row">
                     <div class="col">
-                        <button type="button" class="btn btn-success" style="width: 80%">Back</button>
+                        <button type="button" class="btn btn-success" onclick=back(); style="width: 60%">Back</button>
                     </div>
                     <div class="col">
-                        <button type="button" class="btn btn-success" style="width: 80%">Next</button>
+                        <button type="button" class="btn btn-success" onclick=next(); style="width: 60%">Next</button>
                     </div>
                 </div>
             </div>
@@ -90,6 +90,7 @@
                     readable content of a page when looking at its layout.
                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
                     as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <button type="button" class="btn btn-success" onclick=loadDoc(); style="width: 80%">Read table</button>
             </div>
         </div><br>
     </div>
@@ -104,6 +105,7 @@
                     readable content of a page when looking at its layout.
                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
                     as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p id="fututu"></p>
             </div>
             <div class="col">
                 <div class="row">
@@ -152,7 +154,8 @@
         </section>
     </footer>
     <!-- .............................................................................................. -->
-    
+
+    <script src="js/contactJS.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "dtdFile.dtd">
+<note>
+    <DATA>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1985</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Bonnie Tyler</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1988</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Dolly Parton</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1982</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Gary Moore</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1990</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Eros Ramazzotti</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <YEAR>1997</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Bee Gees</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1998</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Dr.Hook</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1973</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Rod Stewart</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1990</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Andrea Bocelli</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <YEAR>1996</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Percy Sledge</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1987</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Savage Rose</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <YEAR>1995</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Many</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1999</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Kenny Rogers</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1995</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Will Smith</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1997</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Van Morrison</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1971</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Jorn Hoel</ARTIST>
+        <COUNTRY>Norway</COUNTRY>
+        <YEAR>1996</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Cat Stevens</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1990</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Sam Brown</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1988</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>T'Pau</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1987</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Tina Turner</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1983</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Kim Larsen</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <YEAR>1983</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Luciano Pavarotti</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1991</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Otis Redding</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1968</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Simply Red</ARTIST>
+        <COUNTRY>EU</COUNTRY>
+        <YEAR>1985</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>The Communards</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <YEAR>1987</YEAR>
+    </DATA>
+    <DATA>
+        <ARTIST>Joe Cocker</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <YEAR>1987</YEAR>
+    </DATA>
+</note>
