@@ -1,50 +1,23 @@
-#firstContainer {
-    width: auto;
+#firstBlog, #secondBlog, #thirdBlog {
     height: auto;
-    margin: 35px;
+    width: 60%;
     opacity: 0.8;
+    margin: 40px;
     border-radius: 25px;
+    color: white;
 }
 
-#blog1 {
+#menu {
+    height: 60vh;
+    width: 60vh;
+    float: right;
+    margin-right: 35px;
     border-radius: 25px;
-    width: 80%;
-    margin-left: 4%;
+    opacity: 0.8;
+
 }
 
-#header1 {
+#inblog1, #inblog2, #inblog3 {
     text-align: center;
-    display: flex;
-    align-items: center;
 }
 
-#photo1 {
-    text-align: center;
-
-}
-
-#img1 {
-    width: 100%;
-    height: auto;
-}
-
-.obrazok {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-/*.circular--portrait {*/
-/*    position: relative;*/
-/*    width: 200px;*/
-/*    height: 200px;*/
-/*    overflow: hidden;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-/*.circular--portrait img {*/
-/*    width: 100%;*/
-/*    height: auto;*/
-/*}*/

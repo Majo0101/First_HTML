@@ -22,7 +22,7 @@
 
     <meta name="theme-color" content="#fafafa">
 </head>
-<body>
+<body onload="fakeDate()">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
@@ -46,29 +46,84 @@
     <!-- ......................................................................................... -->
 
     <!--Blog-->
-    <div class="container-fluid bg-dark" id="firstContainer"><br><br><br>
-        <div class="container bg-light" id="blog1">
-            <div class="row" id="firstRow">
-                <div class="col" id="header1">
-                    <h1>Blog number one</h1>
-                </div>
-                    <div class="col" id="photo1"><br>
-                        <div class="obrazok"> <img src="gallery/b1.jpg"  id="img1"/> </div>
-                    </div>
 
-            </div>
-        </div>
-
-
-
-
-
-
-
-
+    <div class="container-fluid bg-dark" id="menu">
 
 
     </div>
+
+
+
+    <div class="container-fluid bg-dark " id="firstBlog"><br>
+        <div class="row justify-content-center" id="inblog1">
+            <div class="col">
+                <div class="row">
+                    <h1>Blog name 1</h1>
+                </div>
+                <div class="row">
+                    <p id="date"></p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="gallery/b1.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            </div>
+        </div><br>
+        <div class="row justify-content-center">
+            <div  class="hidden" id="hidenText">
+                <p>Dron Ingenuity Mars Helicopter úspešne uskutočnil na Marse už svoj 26. let, informovala NASA v stručnom oznámení.
+
+                    Podľa zoznamu letov dronu sa let uskutočnil ešte 19. apríla, dron bol vo vzduchu 159 sekúnd, letel v maximálnej výške 8 metrov a maximálnou rýchlosťou 3.8 metra za sekundu a preletel 360 metrov.
+
+                    Dron sa poslednými letmi postupne presúva do bývalej delty rieky v kráteri Jezero, kde má asistovať robotickému vozidlu Perseverance. Vozidlo sa už úspešne presunulo k delte, informovala tento týždeň NASA.
+
+                    NASA sa pri posledných letoch pri Ingenuity už vrátila k pôvodnej rýchlosti otáčania vrtúľ 2537 otáčok za minútu. Dron pôvodne používal takúto rýchlosť, kvôli znižovaniu hustoty atmosféry pre meniace sa ročné obdobie ale NASA v poslednom čase používala vyššiu rýchlosť 2700 otáčok za minútu. K nižšej rýchlosti sa vrátila, keďže na Marse končí leto a hustota atmosféry sa opäť zvyšuje. Pri pomalšej rýchlosti otáčania vrtúľ sa dron zahrieva pomalšie a môže letieť dlhšie.</p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="showhide()" style="width: 60%; ">I am a button</button>
+        </div>
+    </div>
+
+<!--    nedorobeneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+
+    <div class="container-fluid bg-dark " id="secondBlog"><br>
+        <div class="row justify-content-center" id="inblog2">
+            <div class="col">
+                <div class="row">
+                    <h1>Blog name 2</h1>
+                </div>
+                <div class="row">
+                    <p id="date1"></p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="gallery/b2.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            </div>
+        </div><br>
+        <div class="row">
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-dark " id="thirdBlog"><br>
+        <div class="row justify-content-center" id="inblog3">
+            <div class="col">
+                <div class="row">
+                    <h1>Blog name 3</h1>
+                </div>
+                <div class="row">
+                    <p id="date2"></p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="gallery/b3.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            </div>
+        </div><br>
+        <div class="row">
+
+        </div>
+    </div>
+
+
 
 
 
@@ -79,7 +134,7 @@
     <!--  .......................................................................................  -->
 
 
-
+    <script src="js/blogJS.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
