@@ -1,4 +1,4 @@
-#firstBlog, #secondBlog, #thirdBlog {
+#firstBlog, #secondBlog, #thirdBlog, #fourthBlog, #fifthBlog {
     height: auto;
     width: 60%;
     opacity: 0.8;
@@ -10,14 +10,16 @@
 #menu {
     height: 60vh;
     width: 60vh;
-    float: right;
+    position: fixed;
     margin-right: 35px;
+    margin-left: 67%;
     border-radius: 25px;
     opacity: 0.8;
-
+    overscroll-behavior: inherit;
+    color: white;
 }
 
-#inblog1, #inblog2, #inblog3 {
+#inblog1, #inblog2, #inblog3, #inblog4, #inblog5 {
     text-align: center;
 }
 

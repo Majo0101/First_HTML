@@ -47,13 +47,20 @@
 
     <!--Blog-->
 
-    <div class="container-fluid bg-dark" id="menu">
-
-
+    <div class="container-fluid bg-dark" id="menu" >
+        <table class="table" style="color: white">
+            <thead>
+            <tr>
+                <th scope="col">Latest's posts</th>
+            </tr>
+            </thead>
+        </table>
+        <button class="link" style="background:none; border:none; color: white" onclick="smoothScroll(document.getElementById('thirdBlog'))">Blog name 3 </button><br><br>
+        <button class="link" style="background:none; border:none; color: white" onclick="smoothScroll(document.getElementById('firstBlog'))">Blog name 1</button><br><br>
+        <button class="link" style="background:none; border:none; color: white" onclick="smoothScroll(document.getElementById('secondBlog'))">Blog name 2</button><br><br>
+        <button class="link" style="background:none; border:none; color: white" onclick="smoothScroll(document.getElementById('fourthBlog'))">Blog name 4</button><br><br>
+        <button class="link" style="background:none; border:none; color: white" onclick="smoothScroll(document.getElementById('fifthBlog'))">Blog name 5</button><br><br>
     </div>
-
-
-
     <div class="container-fluid bg-dark " id="firstBlog"><br>
         <div class="row justify-content-center" id="inblog1">
             <div class="col">
@@ -61,29 +68,32 @@
                     <h1>Blog name 1</h1>
                 </div>
                 <div class="row">
-                    <p id="date"></p>
+                    <p id="date1"></p><br><br>
+                    <h4>dsl.sk Name</h4>
                 </div>
             </div>
-            <div class="col">
-                <img src="gallery/b1.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            <div class="col bg-light" style="border-radius: 25px">
+                <input type="image" src="gallery/b1.jpg" width="400px" height="150px" style="object-fit: cover;border-radius: 25px" onclick="expandPhoto(1,'photo1')" id="photo1">
             </div>
         </div><br>
         <div class="row justify-content-center">
-            <div  class="hidden" id="hidenText">
-                <p>Dron Ingenuity Mars Helicopter úspešne uskutočnil na Marse už svoj 26. let, informovala NASA v stručnom oznámení.
-
-                    Podľa zoznamu letov dronu sa let uskutočnil ešte 19. apríla, dron bol vo vzduchu 159 sekúnd, letel v maximálnej výške 8 metrov a maximálnou rýchlosťou 3.8 metra za sekundu a preletel 360 metrov.
-
-                    Dron sa poslednými letmi postupne presúva do bývalej delty rieky v kráteri Jezero, kde má asistovať robotickému vozidlu Perseverance. Vozidlo sa už úspešne presunulo k delte, informovala tento týždeň NASA.
-
-                    NASA sa pri posledných letoch pri Ingenuity už vrátila k pôvodnej rýchlosti otáčania vrtúľ 2537 otáčok za minútu. Dron pôvodne používal takúto rýchlosť, kvôli znižovaniu hustoty atmosféry pre meniace sa ročné obdobie ale NASA v poslednom čase používala vyššiu rýchlosť 2700 otáčok za minútu. K nižšej rýchlosti sa vrátila, keďže na Marse končí leto a hustota atmosféry sa opäť zvyšuje. Pri pomalšej rýchlosti otáčania vrtúľ sa dron zahrieva pomalšie a môže letieť dlhšie.</p>
+            <div  class="hidden" id="hiddenText1">
+                <p>Dron Ingenuity Mars Helicopter úspešne uskutočnil na Marse už svoj 26. let,
+                    informovala NASA v stručnom oznámení.
+                    Podľa zoznamu letov dronu sa let uskutočnil ešte 19. apríla, dron bol vo vzduchu 159 sekúnd,
+                    letel v maximálnej výške 8 metrov a maximálnou rýchlosťou 3.8 metra za sekundu a preletel 360 metrov.
+                    Dron sa poslednými letmi postupne presúva do bývalej delty rieky v kráteri Jezero,
+                    kde má asistovať robotickému vozidlu Perseverance. Vozidlo sa už úspešne presunulo k delte,
+                    informovala tento týždeň NASA. NASA sa pri posledných letoch pri Ingenuity už vrátila k pôvodnej
+                    rýchlosti otáčania vrtúľ 2537 otáčok za minútu.
+                    Dron pôvodne používal takúto rýchlosť, kvôli znižovaniu hustoty atmosféry pre meniace sa ročné
+                    obdobie ale NASA v poslednom čase používala vyššiu rýchlosť 2700 otáčok za minútu. K nižšej
+                    rýchlosti sa vrátila, keďže na Marse končí leto a hustota atmosféry sa opäť zvyšuje.
+                    Pri pomalšej rýchlosti otáčania vrtúľ sa dron zahrieva pomalšie a môže letieť dlhšie.</p>
             </div>
-            <button type="button" class="btn btn-success" onclick="showhide()" style="width: 60%; ">I am a button</button>
-        </div>
+            <button type="button" class="btn btn-outline-success" onclick="showHide('hiddenText1')" style="width: 60%; ">Read more</button>
+        </div><br>
     </div>
-
-<!--    nedorobeneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
-
     <div class="container-fluid bg-dark " id="secondBlog"><br>
         <div class="row justify-content-center" id="inblog2">
             <div class="col">
@@ -91,19 +101,30 @@
                     <h1>Blog name 2</h1>
                 </div>
                 <div class="row">
-                    <p id="date1"></p>
+                    <p id="date2"></p><br><br>
+                    <h4>dsl.sk Name</h4>
                 </div>
             </div>
-            <div class="col">
-                <img src="gallery/b2.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            <div class="col bg-light" style="border-radius: 25px">
+                <input type="image" src="gallery/b2.jpg" width="400px" height="150px" style="object-fit: cover;border-radius: 25px" onclick="expandPhoto(1,'photo2')" id="photo2">
             </div>
         </div><br>
-        <div class="row">
-
-        </div>
+        <div class="row justify-content-center">
+            <div  class="hidden" id="hiddenText2">
+                <p>Apple bude podľa Gurmana ponúkať štyri modely iPhone 14. Pre slabé predaje menšeho 5.4" modelu
+                    iPhone 13 mini už nebude ponúkať menší model a okrem 6.1" iPhonu 14 bude k dispozícii veľký 6.7" iPhone 14 Max.
+                    Z Pro modelov majú byť k dispozícii rovnako ako u predchádzajúcej generácie 6.1" iPhone 14 Pro a 6.7"
+                    iPhone 14 Pro Max..
+                    Modely iPhone a iPhone Pro sa okrem doterajších menších rozdielov majú odlišovať senzorom pre
+                    širokouhlý fotoaparát. Modely iPhone Pro majú mať senzor s rozlíšením 48 megapixelov, modely iPhone
+                    s rozlíšením 12 megapixelov.
+                    Použitý má byť tiež iný procesor. Modely iPhone Pro budú postavené na procesore Apple A16, modely
+                    iPhone zrejme na Apple A15. Okrem snahy odlíšiť iPhone Pro od iPhonu k tomu mohol podľa Gurmana prispieť
+                    aj problém s nedostatkom čipov.</p>
+            </div>
+            <button type="button" class="btn btn-outline-success" onclick="showHide('hiddenText2')" style="width: 60%; ">Read more</button>
+        </div><br>
     </div>
-
-
     <div class="container-fluid bg-dark " id="thirdBlog"><br>
         <div class="row justify-content-center" id="inblog3">
             <div class="col">
@@ -111,28 +132,118 @@
                     <h1>Blog name 3</h1>
                 </div>
                 <div class="row">
-                    <p id="date2"></p>
+                    <p id="date3"></p><br><br>
+                    <h4>dsl.sk Name</h4>
                 </div>
             </div>
-            <div class="col">
-                <img src="gallery/b3.jpg" width="150px" height="150px" style="border-radius: 50%; overflow: hidden;">
+            <div class="col bg-light" style="border-radius: 25px">
+                <input type="image" src="gallery/b3.jpg" width="400px" height="150px" style="object-fit: cover;border-radius: 25px" onclick="expandPhoto(1,'photo3')" id="photo3">
             </div>
         </div><br>
-        <div class="row">
+        <div class="row justify-content-center">
+            <div  class="hidden" id="hiddenText3">
+                <p>Okrem iného dátové centrum musí mať typicky zabezpečné záložné napájanie aj pre prípadné dlhšie
+                    výpadky rozvodnej siete, čo inštalované batérie evidentne nedokážu zabezpečiť. Google neuvádza
+                    spotrebu svojho dátového centra ani kapacitu batérií, v oznámení len vo všeobecnosti hovorí o
+                    potrebe miliónov Wattov záložného napájania.
+                    Podľa informácií spoločnosti Centrica Business Solutions, ktorá s Google spolupracuje, je ale
+                    celková kapacita použitých batérií 5.5 MWh. Aj pri plnom nabití batérií a spotrebe dátového centra
+                    len na úrovni niekoľko MW tak batérie dokážu zabezpečiť štandardnú prevádzku na maximálne pár hodín.
+                    V prípade potreby zabezpečenia dlhšieho záložného napájania sú tak naďalej potrebné naftové generátory.
 
-        </div>
+                </p>
+            </div>
+            <button type="button" class="btn btn-outline-success" onclick="showHide('hiddenText3')" style="width: 60%; ">Read more</button>
+        </div><br>
     </div>
-
-
-
-
-
-
-
-
-
+    <div class="container-fluid bg-dark " id="fourthBlog"><br>
+        <div class="row justify-content-center" id="inblog4">
+            <div class="col">
+                <div class="row">
+                    <h1>Blog name 4</h1>
+                </div>
+                <div class="row">
+                    <p id="date4"></p><br><br>
+                    <h4>Name Name</h4>
+                </div>
+            </div>
+            <div class="col bg-light" style="border-radius: 25px">
+                <input type="image" src="gallery/b4.jpg" width="400px" height="150px" style="object-fit: cover;border-radius: 25px" onclick="expandPhoto(1,'photo4')" id="photo4">
+            </div>
+        </div><br>
+        <div class="row justify-content-center">
+            <div  class="hidden" id="hiddenText4">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                    literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                    of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                    This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
+                    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </p>
+            </div>
+            <button type="button" class="btn btn-outline-success" onclick="showHide('hiddenText4')" style="width: 60%; ">Read more</button>
+        </div><br>
+    </div>
+    <div class="container-fluid bg-dark " id="fifthBlog"><br>
+        <div class="row justify-content-center" id="inblog5">
+            <div class="col">
+                <div class="row">
+                    <h1>Blog name 5</h1>
+                </div>
+                <div class="row">
+                    <p id="date5"></p><br><br>
+                    <h4>Name Name</h4>
+                </div>
+            </div>
+            <div class="col bg-light" style="border-radius: 25px">
+                <input type="image" src="gallery/b5.jpg" width="400px" height="150px" style="object-fit: cover;border-radius: 25px" onclick="expandPhoto(1,'photo5')" id="photo5">
+            </div>
+        </div><br>
+        <div class="row justify-content-center">
+            <div  class="hidden" id="hiddenText5">
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                    literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                    of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                    This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
+                    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </p>
+            </div>
+            <button type="button" class="btn btn-outline-success" onclick="showHide('hiddenText5')" style="width: 60%; ">Read more</button>
+        </div><br>
+    </div>
     <!--  .......................................................................................  -->
 
+    <!--footer-->
+    <footer class="text-center text-lg-start bg-dark text-muted" id="foot">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+            <div class="me-5 d-none d-lg-block">
+                <span>© 2022 Copyright: Marian Bodnar</span>
+            </div>
+            <div>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Pondelok" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <!-- .............................................................................................. -->
 
     <script src="js/blogJS.js"></script>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
